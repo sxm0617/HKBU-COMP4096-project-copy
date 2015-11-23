@@ -1,0 +1,18 @@
+<!--
+<Alloy>
+	<Window title="Dresses" fullscreen="true">
+		<View class="container">
+			<ImageView image="/dresses.jpg" height= "200" width = "150" top= "20dp" left="20dp" />
+		</View>
+	</Window>
+</Alloy>
+-->
+
+<Alloy>    
+	<Window id="win" backgroundColor="white" exitOnClose="true" fullscreen="true" title="ScrollView Demo">
+  		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="80%" width="100%">
+            <View id="view" class="container" backgroundColor="#336699" top="10" height="2000" width="100%" />
+            <ImageView image="/dresses.jpg" height= "200" width = "150" top= "20dp" left="20dp" />
+        </ScrollView>
+    </Window>
+</Alloy>

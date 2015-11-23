@@ -1,0 +1,21 @@
+<Alloy>    
+	<Window id="win" backgroundColor="white" exitOnClose="true" fullscreen="true" title="ScrollView Demo">
+  		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="80%" width="100%">
+            <View id="view" backgroundColor="#336699" top="10" height="2000" width="100%" />
+            <ImageView image="/dresses.jpg" height= "200" width = "150" top= "20dp" left="20dp" onClick="dresses" />
+            <ImageView image="/jackets.jpg" height= "200" width = "150" top= "20dp" left="200dp" onClick="jackets" />
+            <ImageView image="/tops.jpg" height= "200" width = "150" top= "250dp" left="20dp" onClick="tops" />
+            <ImageView image="/trousers.jpg" height= "200" width = "150" top= "250dp" left="200dp" onClick="trousers" />
+        </ScrollView>
+    </Window>
+</Alloy>
+
+
+<!-- THIS IS THE CATEGORIES PAGE DO NOT REMOVE!! -->
+<!-- 
+	<Window title="Categories" id="Categories" backgroundColor="white" class="container">
+<ImageView  id="jackets" image="/jackets.jpg" height= "200" width = "150" top= "50dp" left="25dp" onClick="jackets"/>
+	<ImageView image="/dresses.jpg" height= "200" width = "150" top= "50dp" left="200dp" onClick="dresses" />
+	<ImageView  image="/trousers.jpg" height= "200" width = "150" top="300dp" left= "25dp" onClick="trousers"/>
+	<ImageView  image="/tops.jpg" height= "200" width = "150" top= "300dp" left="200dp" onClick="tops"/> 
+	</Window>-->

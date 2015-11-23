@@ -1,13 +1,33 @@
 <Alloy>
+	<Collection src="events"/>
 	<TabGroup>
-		<Tab title="Tab 1" icon="KS_nav_ui.png">
-			<Window title="Tab 1">
-				<WebView url="/webcontent/webpage/login.html" />
+		<Tab title="Home" icon="KS_nav_ui.png">
+			<Window title="Home Page" fullscreen="true">
+				<TableView >
+					<TableViewSection>
+						<TableViewRow >
+							<View id="view" layout="vertical" height="50%" />
+							<ImageView id="homeImage" image="/shopnow.png" onClick="categories" />
+						</TableViewRow>
+					
+						<TableViewRow >
+							<View id="view" layout="vertical" height="50%" />
+							<ImageView id="homeImage" image="/sale.png"/>
+						</TableViewRow>
+					
+					</TableViewSection>
+				</TableView>
 			</Window>
 		</Tab>
+		
 		<Tab title="Tab 2" icon="KS_nav_views.png">
 			<Window title="Tab 2">
-				<Label>I am Window 2</Label>
+				<TableView dataCollection="events" >  
+					<TableViewRow layout="vertical"> 
+				    	<Label text="{name}"/>  
+        				<Label text="{id}"/>
+				    </TableViewRow>            
+				</TableView>	
 			</Window>
 		</Tab>
 	</TabGroup>
