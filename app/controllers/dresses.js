@@ -1,1 +1,14 @@
-//var args = arguments[0] || {};
+function showItem(e) {
+	
+		var details = Alloy.createController("details", {pid:e.row.pid});
+	Alloy.Globals.tabGroup.activeTab.open(details.getView());
+	
+	
+}
+
+function showCatagory(collection){
+	
+	return collection.where({category:"dresses"});
+}
+
+Alloy.Collections.items.fetch();

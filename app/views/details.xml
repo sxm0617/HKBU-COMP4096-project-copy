@@ -1,0 +1,17 @@
+<Alloy>
+	<Collection src="items"/>
+	<Window class="container" backgroundColor="white">
+		<TableView dataCollection="items" dataFilter="showDetails">
+			<TableViewRow layout="vertical">
+			<Label  text="{name}"/> 
+			<Label  text="{price}"/>
+			<Label  text="{info}"/>
+		</TableViewRow>
+		<!-- <TableviewRow>
+			<!-- Here there should be a button that says: Add to cart.
+			If you press this button it should check in the DB if number </= 0 tha display: out of stock, Sorry!
+			if number > 0 it should be added to the cart page. 
+			Cart page should display items that are added. and has some functionallity too. See cart.xml -->
+		</TableView>
+	</Window>
+</Alloy>

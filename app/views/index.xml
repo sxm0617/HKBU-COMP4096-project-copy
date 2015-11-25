@@ -1,8 +1,8 @@
 <Alloy>
-	<Collection src="events"/>
+	<Collection src="items"/>
 	<TabGroup>
 		<Tab title="Home" icon="KS_nav_ui.png">
-			<Window title="Home Page" fullscreen="true">
+<Window title="Home Page">
 				<TableView >
 					<TableViewSection>
 						<TableViewRow >
@@ -16,18 +16,23 @@
 						</TableViewRow>
 					
 					</TableViewSection>
-				</TableView>
-			</Window>
+					</TableView>
+		</Window>
 		</Tab>
 		
 		<Tab title="Tab 2" icon="KS_nav_views.png">
 			<Window title="Tab 2">
-				<TableView dataCollection="events" >  
-					<TableViewRow layout="vertical"> 
-				    	<Label text="{name}"/>  
+
+<TableView dataCollection="items" >  
+        			<TableViewRow layout="vertical"> 
+        				<Label text="{name}"/>
         				<Label text="{id}"/>
-				    </TableViewRow>            
-				</TableView>	
+        				<Label text="{number}"/>
+        			</TableViewRow>            
+        </TableView>	
+
+
+
 			</Window>
 		</Tab>
 	</TabGroup>

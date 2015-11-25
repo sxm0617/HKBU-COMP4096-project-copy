@@ -1,0 +1,8 @@
+<Alloy>
+<Window>lala</Window>
+<!-- 
+This page should display the items from database, based on the ID's that we've added. 
+Maybe this page can be a temporary storage page. So everytime you open the app this page will be blank, but once we add items from within the app it saves it here. 
+'BUY' Button at the bottom which if you click it sums up all the prices from the items (stored in DB) and than displays total amount.  -->
+
+</Alloy>

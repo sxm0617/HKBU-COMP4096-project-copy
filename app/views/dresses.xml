@@ -1,18 +1,12 @@
-<!--
 <Alloy>
-	<Window title="Dresses" fullscreen="true">
-		<View class="container">
-			<ImageView image="/dresses.jpg" height= "200" width = "150" top= "20dp" left="20dp" />
-		</View>
-	</Window>
-</Alloy>
--->
-
-<Alloy>    
-	<Window id="win" backgroundColor="white" exitOnClose="true" fullscreen="true" title="ScrollView Demo">
-  		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="80%" width="100%">
-            <View id="view" class="container" backgroundColor="#336699" top="10" height="2000" width="100%" />
-            <ImageView image="/dresses.jpg" height= "200" width = "150" top= "20dp" left="20dp" />
-        </ScrollView>
+       <Collection src="items"/>
+       	<Window id="win" backgroundColor="white" exitOnClose="true" fullscreen="false" title="Dresses">
+  <TableView dataCollection="items" dataFilter="showCatagory" onClick="showItem">
+  	<TableViewRow layout="vertical" pid="{id}">
+            <ImageView image="/dress4.jpg" height= "200" width = "150" top= "50dp" left="100dp"/>
+            <Label text="{name}"/>
+            <Label text="{price}"/>
+            </TableViewRow>
+        </TableView>
     </Window>
 </Alloy>

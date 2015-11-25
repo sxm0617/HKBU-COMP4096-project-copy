@@ -1,5 +1,23 @@
 <Alloy>
-    <Window class="container">
-        <Label id="label">Hi</Label>
+	<Collection src="items"/>
+	<Window id="win" backgroundColor="white" exitOnClose="true" fullscreen="false" title="Jackets">
+  		<TableView dataCollection="items" dataFilter="showCatagory" onClick="showItem">
+  			<TableViewRow layout="vertical" pid="{id}">
+           		<ImageView image="/jacket1.jpg" height= "200" width = "150" top= "50dp" left="100dp"/>
+           		<Label text="{name}"/>
+           		<Label text="{price}"/>
+           </TableViewRow>
+           <TableViewRow layout="vertical" pid="{id}">
+           		<ImageView image="/jacket2.jpg" height= "200" width = "150" top= "50dp" left="100dp"/>
+           		<Label text="{name}"/>
+           		<Label text="{price}"/>
+           </TableViewRow>
+           <TableViewRow layout="vertical" pid="{id}">
+           		<ImageView image="/jacket3.jpg" height= "200" width = "150" top= "50dp" left="100dp"/>
+           		<Label text="{name}" />
+           		<Label text="{price}"/>
+           </TableViewRow>
+        </TableView>
     </Window>
 </Alloy>
+

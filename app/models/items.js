@@ -4,8 +4,8 @@ exports.definition = {
 
 		adapter: {
 			type: "sql",
-			collection_name: "events",
-			db_file:"/infoday2015.sqlite",
+			collection_name: "items",
+			db_file:"/shop.sqlite",
 			idAttribute: "id"
 		}
 	},

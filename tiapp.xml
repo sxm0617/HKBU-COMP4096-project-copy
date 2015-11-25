@@ -11,7 +11,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>a89a4693-62e6-4e5c-9333-c7fd91f8fa80</guid>
+    <guid>12491930-426c-443c-9555-c7fd91f8fa80</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -57,25 +57,25 @@
         <target device="mobileweb">false</target>
         <target device="windows">false</target>
     </deployment-targets>
-    <sdk-version>5.1.0.GA</sdk-version>
+    <sdk-version>5.1.1.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">5652b80453fe6855373e1d80</property>
+    <property name="appc-app-id" type="string">5655a58006ef4f03585a3cc7</property>
     <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-development" type="string">QxLkFTTBzUgDIF9xTMxae5x4gky6C7v6</property>
-    <property name="acs-oauth-key-development" type="string">uldaMfpfav8vyScsTyAWjYj2XYUR0wUW</property>
-    <property name="acs-api-key-development" type="string">9FjBQKN72l0eldOskcblQQRkoLTYcbsV</property>
+    <property name="acs-oauth-secret-development" type="string">lspF4iVjy8FLdllm3r5kU3creNMihdFz</property>
+    <property name="acs-oauth-key-development" type="string">3UNmZa7puXgPXyc1VYQVYbmSfyIWSjTu</property>
+    <property name="acs-api-key-development" type="string">ivLUewqjy1zOXRP5elzordvykYZn8dbE</property>
     <property name="acs-username-development" type="string">appc_app_user_dev</property>
-    <property name="acs-password-development" type="string">sxGxjHjzDQeoy4F8bM</property>
+    <property name="acs-password-development" type="string">fZmjcK10LMUL95x9nP</property>
     <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-production" type="string">fH5thR8daLyyEGQZ3eYk1S87svYiXpfW</property>
-    <property name="acs-oauth-key-production" type="string">zO2XQZ9HuQbO2nRCNvhpTAt596kPSMYK</property>
-    <property name="acs-api-key-production" type="string">aji0DRSWuE6GLrvdEh4rEofCeoz74qrj</property>
+    <property name="acs-oauth-secret-production" type="string">WlIv6aRZQN3KuzXxv5NERZHEAq2FtGc6</property>
+    <property name="acs-oauth-key-production" type="string">XGNkDERV86AjGenNuS8MAiDlTU29nItD</property>
+    <property name="acs-api-key-production" type="string">gfLaUgTFfc3BtyTPMfo0rWiou2kyCQiZ</property>
     <property name="acs-username-production" type="string">appc_app_user</property>
-    <property name="acs-password-production" type="string">BtTyKEZeDqfFpN9E39</property>
+    <property name="acs-password-production" type="string">QfsSUNJM9AJQLyTwlb</property>
     <property name="appc-org-id" type="string">100065777</property>
     <property name="appc-creator-user-id" type="string">c3bafb8f-b919-4555-8d1d-38f1d3ec4a9f</property>
 </ti:app>
