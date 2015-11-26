@@ -1,0 +1,432 @@
+
+11/26/2015, 5:53:09 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.4
+  Architecture                = 64bit
+  # CPUs                      = 2
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.1.GA
+  SDK Path                    = /Users/xdeveloper/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/xdeveloper/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.1.GA --project-dir /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing --target simulator --ios-version 8.4 --device-family iphone --deploy-type development --sim-type iphone --sim-version 8.4 --device-id 2EDB7335-54B8-4F17-BDCB-C24894679964 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51135 --plugin-paths /Users/xdeveloper/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/hk/mg13m0zn02d6gm6fs51s89280000gq/T/build-1448531584051.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 2EDB7335-54B8-4F17-BDCB-C24894679964
+[TRACE]  [ioslib] Found iOS Simulator UDID 2EDB7335-54B8-4F17-BDCB-C24894679964
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 2EDB7335-54B8-4F17-BDCB-C24894679964
+[TRACE]  [ioslib]   iOS     = 8.4
+[TRACE]  [ioslib] Autoselected Xcode: 6.4
+[DEBUG]  Detecting modules in /Users/xdeveloper/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/xdeveloper/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Detecting modules in /Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 3.0.0 @ /Library/Application Support/Titanium/modules/android/facebook/3.0.0
+[DEBUG]  Detected android module: facebook 3.0.3 @ /Library/Application Support/Titanium/modules/android/facebook/3.0.3
+[DEBUG]  Detected android module: ti.cloudpush 2.0.7 @ /Library/Application Support/Titanium/modules/android/ti.cloudpush/2.0.7
+[DEBUG]  Detected android module: ti.cloudpush 2.1.0 @ /Library/Application Support/Titanium/modules/android/ti.cloudpush/2.1.0
+[DEBUG]  Detected android module: ti.cloudpush 3.3.4 @ /Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.4
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
+[DEBUG]  Detected android module: ti.map 2.2.2 @ /Library/Application Support/Titanium/modules/android/ti.map/2.2.2
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Library/Application Support/Titanium/modules/android/ti.map/2.2.3
+[DEBUG]  Detected commonjs module: ti.cloud 2.3.0 @ /Library/Application Support/Titanium/modules/commonjs/ti.cloud/2.3.0
+[DEBUG]  Detected commonjs module: ti.cloud 2.3.2 @ /Library/Application Support/Titanium/modules/commonjs/ti.cloud/2.3.2
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.0.1 @ /Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.0.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.0 @ /Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.0
+[DEBUG]  Detected iphone module: facebook 3.1.1 @ /Library/Application Support/Titanium/modules/iphone/facebook/3.1.1
+[DEBUG]  Detected iphone module: facebook 3.2.0 @ /Library/Application Support/Titanium/modules/iphone/facebook/3.2.0
+[DEBUG]  Detected iphone module: ti.coremotion 1.0.1 @ /Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.0.4 @ /Library/Application Support/Titanium/modules/iphone/ti.map/2.0.4
+[DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
+[DEBUG]  Detected iphone module: ti.touchid 1.0 @ /Library/Application Support/Titanium/modules/iphone/ti.touchid/1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected tizen module: tizen 3.0.0 @ /Library/Application Support/Titanium/modules/tizen/tizen/3.0.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/xdeveloper/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detecting plugins in /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ /Library/Application Support/Titanium/plugins/com.appcelerator.test
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/xdeveloper/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 8.4
+[INFO]   Building for iOS Simulator: iPhone 6
+[DEBUG]  UDID: 2EDB7335-54B8-4F17-BDCB-C24894679964
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 8.4
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/xdeveloper/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/alloy/bin/alloy compile /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/app --config platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.7.26 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = iphone
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing
+[DEBUG]  app path = /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/xdeveloper/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy.js --> Resources/iphone/alloy.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/xdeveloper/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/app/assets
+[TRACE]  
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [models/items.js] model processing...
+[INFO]   [cart.xml] view processing...
+[INFO]   style:      "cart.tss"
+[INFO]   view:       "cart.xml"
+[INFO]   controller: "cart.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/cart.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/cart.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/cart.js"
+[INFO]   [categories.xml] view processing...
+[INFO]   style:      "categories.tss"
+[INFO]   view:       "categories.xml"
+[INFO]   controller: "categories.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/categories.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/categories.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/categories.js"
+[INFO]   [details.xml] view processing...
+[INFO]   style:      "details.tss"
+[INFO]   view:       "details.xml"
+[INFO]   controller: "details.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/details.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/details.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/details.js"
+[INFO]   [dresses.xml] view processing...
+[INFO]   style:      "dresses.tss"
+[INFO]   view:       "dresses.xml"
+[INFO]   controller: "dresses.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/dresses.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/dresses.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/dresses.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [jackets.xml] view processing...
+[INFO]   style:      "jackets.tss"
+[INFO]   view:       "jackets.xml"
+[INFO]   controller: "jackets.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/jackets.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/jackets.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/jackets.js"
+[INFO]   [tops.xml] view processing...
+[INFO]   style:      "tops.tss"
+[INFO]   view:       "tops.xml"
+[INFO]   controller: "tops.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/tops.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/tops.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/tops.js"
+[INFO]   [trousers.xml] view processing...
+[INFO]   style:      "trousers.tss"
+[INFO]   view:       "trousers.xml"
+[INFO]   controller: "trousers.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/trousers.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/trousers.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/trousers.js"
+[INFO]   
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Items.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [1.62481s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 1.62481s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  offline build file /var/folders/hk/mg13m0zn02d6gm6fs51s89280000gq/T/build-351dc610bde4edd53693c333530d7d04099e89a9.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 16176.992 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Testing.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Testing.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Testing_Prefix.pch
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Testing.xcodeproj/xcshareddata/xcschemes/Testing.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/debugger.plist
+[DEBUG]  Skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-60.png, skipping
+[WARN]   Skipping Resources/iphone/appicon-60@2x.png because it has an alpha channel and generating one from DefaultIcon-ios.png
+[WARN]   Skipping Resources/iphone/appicon-60@3x.png because it has an alpha channel and generating one from DefaultIcon-ios.png
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72@2x.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-76.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-76@2x.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small-40.png, skipping
+[WARN]   Skipping Resources/iphone/appicon-Small-40@2x.png because it has an alpha channel and generating one from DefaultIcon-ios.png
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small-50.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small-50@2x.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small.png, skipping
+[WARN]   Skipping Resources/iphone/appicon-Small@2x.png because it has an alpha channel and generating one from DefaultIcon-ios.png
+[DEBUG]  Unsupported app icon Resources/iphone/appicon@2x.png, skipping
+[TRACE]  Found generated 58x58 app icon: /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 80x80 app icon: /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape@2x.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait@2x.png
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/Ti.Manifest
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/appicon.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/map/bubble.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/map/green_pin.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/map/purple_pin.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/map/red_pin.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/blackberry/splash-600x1024.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/dress4.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/dress5.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/dress6.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/dresses.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/iTunesArtwork
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/iTunesArtwork@2x
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/jacket1.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/jacket2.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/jacket3.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/jackets.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/sale.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/shop.sqlite
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/shopnow.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/top7.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/top8.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/top9.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/tops.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/trouser10.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/trouser11.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/trouser12.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/trousers.jpg
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/CFG.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/CFG.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/app.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/app.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/backbone.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/backbone.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/constants.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/constants.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/BaseController.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/BaseController.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/cart.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/cart.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/categories.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/categories.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/details.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/details.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/dresses.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/dresses.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/index.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/index.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/jackets.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/jackets.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/tops.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/tops.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/controllers/trousers.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/controllers/trousers.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/models/Items.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/models/Items.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/cart.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/cart.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/categories.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/categories.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/details.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/details.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/dresses.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/dresses.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/index.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/index.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/jackets.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/jackets.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/tops.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/tops.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/styles/trousers.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/styles/trousers.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/sync/localStorage.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/sync/localStorage.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/sync/properties.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/sync/properties.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/sync/sql.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/sync/sql.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/underscore.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/underscore.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy/widget.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy/widget.js
+[DEBUG]  Overwriting /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/Resources/iphone/alloy.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/alloy.js
+[DEBUG]  Overwriting /Users/xdeveloper/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 4s 602ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 2EDB7335-54B8-4F17-BDCB-C24894679964
+[TRACE]  [ioslib]   iOS     = 8.4
+[TRACE]  [ioslib] Autoselected Xcode: 6.4
+[TRACE]  [ioslib] Removing old log file: /Users/xdeveloper/Library/Developer/CoreSimulator/Devices/2EDB7335-54B8-4F17-BDCB-C24894679964/data/Containers/Data/Application/C3511738-4F18-4587-93DD-6914C02CE791/Documents/52121bc8-91cc-45c1-9555-c7fd91f8fa80.log
+[TRACE]  [ioslib] iPhone 6 Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/xdeveloper/Library/Logs/CoreSimulator/2EDB7335-54B8-4F17-BDCB-C24894679964/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/xdeveloper/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA/node_modules/ioslib/lib/sim_focus.scpt" "iOS Simulator" "Disabled"
+[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 2EDB7335-54B8-4F17-BDCB-C24894679964 /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/build/Products/Debug-iphonesimulator/Testing.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 2EDB7335-54B8-4F17-BDCB-C24894679964 hk.edu.hkbu.comp.mac
+[TRACE]  [ioslib] App launched
+[TRACE]  [Testing] assertion failed: 14E46 12H141: libxpc.dylib + 59338 [AF8FA08F-353B-303B-A08E-AEBB3C60A640]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/xdeveloper/Library/Developer/CoreSimulator/Devices/2EDB7335-54B8-4F17-BDCB-C24894679964/data/Containers/Data/Application/B59417A0-E94A-4A2E-B3D3-32381C841537/Documents/52121bc8-91cc-45c1-9555-c7fd91f8fa80.log

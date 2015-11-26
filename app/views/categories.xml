@@ -1,14 +1,9 @@
-
-
 <Alloy>    
-		<Window title="Categories" id="Categories" backgroundColor="white" class="container">
-<ImageView  id="jackets" image="/jackets.jpg" height= "200" width = "150" top= "50dp" left="25dp" onClick="jackets"/>
-	<ImageView image="/dresses.jpg" height= "200" width = "150" top= "50dp" left="200dp" onClick="dresses" />
-	<ImageView  image="/trousers.jpg" height= "200" width = "150" top="300dp" left= "25dp" onClick="trousers"/>
-	<ImageView  image="/tops.jpg" height= "200" width = "150" top= "300dp" left="200dp" onClick="tops"/> 
+	<Window title="Categories" id="Categories" backgroundColor="white" class="container">
+		<ImageView image="/jackets.jpg"  height="150dp" width="100dp" top="50dp"    left="25dp"  onClick="jackets"/>
+		<ImageView image="/dresses.jpg"  height="150dp" width="100dp" top="50dp"    right="25dp" onClick="dresses" />
+		<ImageView image="/trousers.jpg" height="150dp" width="100dp" bottom="50dp" left="25dp"  onClick="trousers"/>
+		<ImageView image="/tops.jpg"     height="150dp" width="100dp" bottom="50dp" right="25dp" onClick="tops"/> 
 	</Window>
-	
-	
-	
 </Alloy>
 

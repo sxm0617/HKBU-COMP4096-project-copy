@@ -2,8 +2,8 @@
 	<Collection src="items"/>
 	<TabGroup>
 		<Tab title="Home" icon="KS_nav_ui.png">
-<Window title="Home Page">
-				<TableView >
+			<Window title="Home Page">
+				<TableView>
 					<TableViewSection>
 						<TableViewRow >
 							<View id="view" layout="vertical" height="50%" />
@@ -17,22 +17,18 @@
 					
 					</TableViewSection>
 					</TableView>
-		</Window>
+			</Window>
 		</Tab>
 		
 		<Tab title="Tab 2" icon="KS_nav_views.png">
 			<Window title="Tab 2">
-
-<TableView dataCollection="items" >  
+				<TableView dataCollection="items" >  
         			<TableViewRow layout="vertical"> 
         				<Label text="{name}"/>
         				<Label text="{id}"/>
         				<Label text="{number}"/>
         			</TableViewRow>            
-        </TableView>	
-
-
-
+        		</TableView>	
 			</Window>
 		</Tab>
 	</TabGroup>

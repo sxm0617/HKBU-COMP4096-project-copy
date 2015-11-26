@@ -1,11 +1,11 @@
 <Alloy>
-       <Collection src="items"/>
-       	<Window id="win" backgroundColor="white" exitOnClose="true" fullscreen="false" title="Trousers">
-  <TableView dataCollection="items" dataFilter="showCatagory" onClick="showItem">
-  	<TableViewRow layout="vertical" pid="{id}">
-            <ImageView image="/trouser10.jpg" height= "200" width = "150" top= "50dp" left="100dp"/>
-            <Label text="{name}"/>
-            <Label text="{price}"/>
+	<Collection src="items"/>
+    <Window id="win" backgroundColor="white" exitOnClose="true" title="Trousers">
+  		<TableView dataCollection="items" dataFilter="showCatagory" dataTransform="addPath" onClick="showItem">
+  			<TableViewRow layout="vertical" pid="{id}">
+            	<ImageView image="{imagesWithPath}" height="200dp" width="150dp" top="50dp" left="100dp" />
+            	<Label text="{name}"/>
+            	<Label text="{price}"/>
             </TableViewRow>
         </TableView>
     </Window>

@@ -1,6 +1,6 @@
 function showItem(e) {
 	
-		var details = Alloy.createController("details", {pid:e.row.pid});
+	var details = Alloy.createController("details", {pid:e.row.pid});
 	Alloy.Globals.tabGroup.activeTab.open(details.getView());
 	
 	
@@ -9,6 +9,15 @@ function showItem(e) {
 function showCatagory(collection){
 	
 	return collection.where({category:"trousers"});
+}
+
+function addPath(model) {
+	
+	transform = model.toJSON();
+	
+	transform.imagesWithPath = "/" + transform.images;
+	
+	return transform;
 }
 
 Alloy.Collections.items.fetch();

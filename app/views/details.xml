@@ -3,10 +3,11 @@
 	<Window class="container" backgroundColor="white">
 		<TableView dataCollection="items" dataFilter="showDetails">
 			<TableViewRow layout="vertical">
-			<Label  text="{name}"/> 
-			<Label  text="{price}"/>
-			<Label  text="{info}"/>
-		</TableViewRow>
+				<ImageView  image="{images}" />
+				<Label  text="{name}"/> 
+				<Label  text="{price}"/>
+				<Label  text="{info}"/>
+			</TableViewRow>
 		<!-- <TableviewRow>
 			<!-- Here there should be a button that says: Add to cart.
 			If you press this button it should check in the DB if number </= 0 tha display: out of stock, Sorry!
