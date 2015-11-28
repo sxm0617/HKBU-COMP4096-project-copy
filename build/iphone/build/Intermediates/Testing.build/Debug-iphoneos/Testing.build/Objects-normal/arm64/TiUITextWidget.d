@@ -43,5 +43,4 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollBridge.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/XHRBridge.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRootViewController.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIAttributedStringProxy.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h

@@ -39,7 +39,6 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiTabGroup.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewController.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIWindow.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiApp.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiHost.h \

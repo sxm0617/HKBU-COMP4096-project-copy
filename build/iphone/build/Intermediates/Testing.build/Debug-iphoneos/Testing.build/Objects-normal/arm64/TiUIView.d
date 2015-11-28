@@ -38,8 +38,6 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Ti2DMatrix.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Ti3DMatrix.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewTemplate.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiApp.h \

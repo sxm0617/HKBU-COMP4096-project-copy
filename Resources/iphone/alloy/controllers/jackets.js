@@ -8,38 +8,38 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
-    function __alloyId98(e) {
+    function __alloyId106(e) {
         if (e && e.fromAdapter) return;
-        __alloyId98.opts || {};
-        var models = showCatagory(__alloyId97);
+        __alloyId106.opts || {};
+        var models = showCatagory(__alloyId105);
         var len = models.length;
         var rows = [];
         for (var i = 0; len > i; i++) {
-            var __alloyId88 = models[i];
-            __alloyId88.__transform = addPath(__alloyId88);
-            var __alloyId90 = Ti.UI.createTableViewRow({
+            var __alloyId96 = models[i];
+            __alloyId96.__transform = addPath(__alloyId96);
+            var __alloyId98 = Ti.UI.createTableViewRow({
                 layout: "vertical",
-                pid: "undefined" != typeof __alloyId88.__transform["id"] ? __alloyId88.__transform["id"] : __alloyId88.get("id"),
+                pid: "undefined" != typeof __alloyId96.__transform["id"] ? __alloyId96.__transform["id"] : __alloyId96.get("id"),
                 height: "50%"
             });
-            rows.push(__alloyId90);
-            var __alloyId92 = Ti.UI.createImageView({
-                image: "undefined" != typeof __alloyId88.__transform["imagesWithPath"] ? __alloyId88.__transform["imagesWithPath"] : __alloyId88.get("imagesWithPath"),
+            rows.push(__alloyId98);
+            var __alloyId100 = Ti.UI.createImageView({
+                image: "undefined" != typeof __alloyId96.__transform["imagesWithPath"] ? __alloyId96.__transform["imagesWithPath"] : __alloyId96.get("imagesWithPath"),
                 height: "200dp",
                 width: "150dp",
                 top: "10%"
             });
-            __alloyId90.add(__alloyId92);
-            var __alloyId94 = Ti.UI.createLabel({
-                text: "undefined" != typeof __alloyId88.__transform["name"] ? __alloyId88.__transform["name"] : __alloyId88.get("name")
+            __alloyId98.add(__alloyId100);
+            var __alloyId102 = Ti.UI.createLabel({
+                text: "undefined" != typeof __alloyId96.__transform["name"] ? __alloyId96.__transform["name"] : __alloyId96.get("name")
             });
-            __alloyId90.add(__alloyId94);
-            var __alloyId96 = Ti.UI.createLabel({
-                text: "undefined" != typeof __alloyId88.__transform["price"] ? __alloyId88.__transform["price"] : __alloyId88.get("price")
+            __alloyId98.add(__alloyId102);
+            var __alloyId104 = Ti.UI.createLabel({
+                text: "undefined" != typeof __alloyId96.__transform["price"] ? __alloyId96.__transform["price"] : __alloyId96.get("price")
             });
-            __alloyId90.add(__alloyId96);
+            __alloyId98.add(__alloyId104);
         }
-        $.__views.__alloyId87.setData(rows);
+        $.__views.__alloyId95.setData(rows);
     }
     function showItem(e) {
         var details = Alloy.createController("details", {
@@ -75,26 +75,26 @@ function Controller() {
     var exports = {};
     var __defers = {};
     Alloy.Collections.instance("items");
-    $.__views.win = Ti.UI.createWindow({
-        id: "win",
+    $.__views.jackets = Ti.UI.createWindow({
         backgroundColor: "white",
         exitOnClose: "true",
-        title: "Jackets"
+        title: "Jackets",
+        id: "jackets"
     });
-    $.__views.win && $.addTopLevelView($.__views.win);
-    $.__views.__alloyId87 = Ti.UI.createTableView({
-        id: "__alloyId87"
+    $.__views.jackets && $.addTopLevelView($.__views.jackets);
+    $.__views.__alloyId95 = Ti.UI.createTableView({
+        id: "__alloyId95"
     });
-    $.__views.win.add($.__views.__alloyId87);
-    var __alloyId97 = Alloy.Collections["items"] || items;
-    __alloyId97.on("fetch destroy change add remove reset", __alloyId98);
-    showItem ? $.addListener($.__views.__alloyId87, "click", showItem) : __defers["$.__views.__alloyId87!click!showItem"] = true;
+    $.__views.jackets.add($.__views.__alloyId95);
+    var __alloyId105 = Alloy.Collections["items"] || items;
+    __alloyId105.on("fetch destroy change add remove reset", __alloyId106);
+    showItem ? $.addListener($.__views.__alloyId95, "click", showItem) : __defers["$.__views.__alloyId95!click!showItem"] = true;
     exports.destroy = function() {
-        __alloyId97.off("fetch destroy change add remove reset", __alloyId98);
+        __alloyId105.off("fetch destroy change add remove reset", __alloyId106);
     };
     _.extend($, $.__views);
     Alloy.Collections.items.fetch();
-    __defers["$.__views.__alloyId87!click!showItem"] && $.addListener($.__views.__alloyId87, "click", showItem);
+    __defers["$.__views.__alloyId95!click!showItem"] && $.addListener($.__views.__alloyId95, "click", showItem);
     _.extend($, exports);
 }
 

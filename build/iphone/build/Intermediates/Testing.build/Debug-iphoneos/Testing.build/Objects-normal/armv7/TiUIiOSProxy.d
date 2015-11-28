@@ -18,50 +18,27 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBase.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiThreading.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPublicAPI.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSAdViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIView.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAnimation.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPoint.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUtils.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiDimension.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiColor.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/ListenerEntry.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiModule.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUtils.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/WebFont.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiFile.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBuffer.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBlob.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Webcolor.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSNavWindowProxy.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiWindowProxy.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewProxy.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIView.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAnimation.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPoint.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/ListenerEntry.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiModule.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/LayoutConstraint.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiGradient.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRect.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewTemplate.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Webcolor.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSPreviewContextProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSPreviewActionProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIAttributedStringProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Ti3DMatrix.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSToolbarProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiToolbar.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSTabbedBarProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSDocumentViewerProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSNavWindowProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiWindowProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiTab.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiTabGroup.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewController.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSSplitWindowProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAnimatorProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiSnapBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPushBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiGravityBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAnchorAttachBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewAttachBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiCollisionBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiDynamicItemBehavior.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h

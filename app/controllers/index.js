@@ -5,16 +5,20 @@ Alloy.Collections.cart.fetch();
 
 var cartObject = Alloy.Collections.cart;
 
-function categories(e) {
-	
+function categories(e) {	
 	var categories = Alloy.createController("categories");
 	$.index.activeTab.open(categories.getView());
 }
 
+function about(e) {	
+	var about = Alloy.createController("about");
+	Alloy.Globals.tabGroup.activeTab.open(about.getView());
+}
+
 function deleteAll(e) {
-	if (cartObject.length > 0) {
-		alert(cartObject.length);
-		for (var i = 0; i <= cartObject.length; i++) {
+	var numberOfItem = cartObject.length;
+	if (numberOfItem > 0) {		
+		for (var i = 0; i < numberOfItem; i++) {
 			var model = cartObject.at(0);
 			model.destroy();
 		}

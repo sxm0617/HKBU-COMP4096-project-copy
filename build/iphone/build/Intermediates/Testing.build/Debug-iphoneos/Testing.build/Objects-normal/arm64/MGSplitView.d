@@ -1,7 +1,6 @@
 dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/MGSplitView/MGSplitView.m \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/MGSplitView/MGSplitView.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/MGSplitView/MGSplitViewController.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiApp.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiHost.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiProxy.h \

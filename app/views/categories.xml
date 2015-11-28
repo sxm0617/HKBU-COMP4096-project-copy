@@ -1,5 +1,5 @@
 <Alloy>    
-	<Window title="Categories" id="Categories" backgroundColor="white" class="container">
+	<Window title="Categories" backgroundColor="white">
 		<View layout="vertical" height="50%" width="50%"    top="10%"     left="0%">
 			<ImageView image="/jackets.jpg"  height="150dp" width="100dp" onClick="jackets" />
 			<Label text="Jackets" />							

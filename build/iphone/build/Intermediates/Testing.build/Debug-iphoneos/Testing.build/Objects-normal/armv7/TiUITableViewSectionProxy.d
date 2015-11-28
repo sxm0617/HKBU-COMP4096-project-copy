@@ -38,5 +38,4 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableViewRowProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableViewAction.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableView.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUISearchBarProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIRefreshControlProxy.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUISearchBarProxy.h

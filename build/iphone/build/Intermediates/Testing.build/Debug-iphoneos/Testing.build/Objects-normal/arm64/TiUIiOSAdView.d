@@ -32,9 +32,4 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBlob.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/LayoutConstraint.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiGradient.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSAdViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRect.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewTemplate.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/APSAnalytics/APSAnalytics.h

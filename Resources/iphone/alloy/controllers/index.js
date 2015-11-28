@@ -8,64 +8,66 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
-    function __alloyId84(e) {
+    function __alloyId80(e) {
         if (e && e.fromAdapter) return;
-        __alloyId84.opts || {};
-        var models = __alloyId83.models;
+        __alloyId80.opts || {};
+        var models = __alloyId79.models;
         var len = models.length;
         var rows = [];
         for (var i = 0; len > i; i++) {
-            var __alloyId72 = models[i];
-            __alloyId72.__transform = {};
-            var __alloyId74 = Ti.UI.createTableViewRow({
+            var __alloyId68 = models[i];
+            __alloyId68.__transform = {};
+            var __alloyId70 = Ti.UI.createTableViewRow({
                 layout: "horizontal"
             });
-            rows.push(__alloyId74);
-            var __alloyId76 = Ti.UI.createTextArea({
+            rows.push(__alloyId70);
+            var __alloyId72 = Ti.UI.createTextArea({
                 font: "",
                 textAlign: "left",
                 width: "150dp",
                 left: "20dp",
-                value: "undefined" != typeof __alloyId72.__transform["item_name"] ? __alloyId72.__transform["item_name"] : __alloyId72.get("item_name")
+                value: "undefined" != typeof __alloyId68.__transform["item_name"] ? __alloyId68.__transform["item_name"] : __alloyId68.get("item_name")
             });
-            __alloyId74.add(__alloyId76);
-            var __alloyId78 = Ti.UI.createTextArea({
+            __alloyId70.add(__alloyId72);
+            var __alloyId74 = Ti.UI.createTextArea({
                 font: "",
                 textAlign: "center",
                 width: "12dp",
                 left: "50dp",
-                value: "undefined" != typeof __alloyId72.__transform["item_number"] ? __alloyId72.__transform["item_number"] : __alloyId72.get("item_number")
+                value: "undefined" != typeof __alloyId68.__transform["item_number"] ? __alloyId68.__transform["item_number"] : __alloyId68.get("item_number")
             });
-            __alloyId74.add(__alloyId78);
-            var __alloyId80 = Ti.UI.createTextArea({
+            __alloyId70.add(__alloyId74);
+            var __alloyId76 = Ti.UI.createTextArea({
                 font: "",
                 textAlign: "right",
                 width: "50dp",
                 left: "50dp",
-                value: "undefined" != typeof __alloyId72.__transform["total_price"] ? __alloyId72.__transform["total_price"] : __alloyId72.get("total_price")
+                value: "undefined" != typeof __alloyId68.__transform["total_price"] ? __alloyId68.__transform["total_price"] : __alloyId68.get("total_price")
             });
-            __alloyId74.add(__alloyId80);
-            var __alloyId82 = Ti.UI.createButton({
+            __alloyId70.add(__alloyId76);
+            var __alloyId78 = Ti.UI.createButton({
                 title: "Delete",
                 textAlign: "center",
                 left: "85%"
             });
-            __alloyId74.add(__alloyId82);
-            deleteOne ? $.addListener(__alloyId82, "click", deleteOne) : __defers["__alloyId82!click!deleteOne"] = true;
+            __alloyId70.add(__alloyId78);
+            deleteOne ? $.addListener(__alloyId78, "click", deleteOne) : __defers["__alloyId78!click!deleteOne"] = true;
         }
-        $.__views.__alloyId71.setData(rows);
+        $.__views.__alloyId67.setData(rows);
     }
     function categories() {
         var categories = Alloy.createController("categories");
         $.index.activeTab.open(categories.getView());
     }
+    function about() {
+        var about = Alloy.createController("about");
+        Alloy.Globals.tabGroup.activeTab.open(about.getView());
+    }
     function deleteAll() {
-        if (cartObject.length > 0) {
-            alert(cartObject.length);
-            for (var i = 0; i <= cartObject.length; i++) {
-                var model = cartObject.at(0);
-                model.destroy();
-            }
+        var numberOfItem = cartObject.length;
+        if (numberOfItem > 0) for (var i = 0; numberOfItem > i; i++) {
+            var model = cartObject.at(0);
+            model.destroy();
         } else alert("The cart is already empty now!");
     }
     function deleteOne() {
@@ -91,207 +93,190 @@ function Controller() {
     var __defers = {};
     Alloy.Collections.instance("items");
     Alloy.Collections.instance("cart");
-    var __alloyId47 = [];
-    $.__views.__alloyId49 = Ti.UI.createWindow({
+    var __alloyId49 = [];
+    $.__views.__alloyId51 = Ti.UI.createWindow({
         backgroundColor: "#fff",
         title: "Home Page",
-        id: "__alloyId49"
+        id: "__alloyId51"
     });
-    var __alloyId51 = [];
-    $.__views.__alloyId52 = Ti.UI.createTableViewRow({
-        id: "__alloyId52"
-    });
-    __alloyId51.push($.__views.__alloyId52);
-    $.__views.view = Ti.UI.createView({
-        id: "view",
-        height: "50%"
-    });
-    $.__views.__alloyId52.add($.__views.view);
-    $.__views.homeImage = Ti.UI.createImageView({
-        id: "homeImage",
-        image: "/shopnow.png"
-    });
-    $.__views.view.add($.__views.homeImage);
-    categories ? $.addListener($.__views.homeImage, "click", categories) : __defers["$.__views.homeImage!click!categories"] = true;
-    $.__views.__alloyId53 = Ti.UI.createTableViewRow({
-        id: "__alloyId53"
-    });
-    __alloyId51.push($.__views.__alloyId53);
-    $.__views.view = Ti.UI.createView({
-        id: "view",
-        height: "50%"
-    });
-    $.__views.__alloyId53.add($.__views.view);
-    $.__views.__alloyId54 = Ti.UI.createTextField({
-        value: "One-Size Shop",
-        editable: "false",
+    var __alloyId53 = [];
+    $.__views.__alloyId54 = Ti.UI.createTableViewRow({
         id: "__alloyId54"
     });
-    $.__views.view.add($.__views.__alloyId54);
-    $.__views.__alloyId50 = Ti.UI.createTableView({
-        data: __alloyId51,
-        id: "__alloyId50"
-    });
-    $.__views.__alloyId49.add($.__views.__alloyId50);
-    $.__views.__alloyId48 = Ti.UI.createTab({
-        window: $.__views.__alloyId49,
-        title: "Home",
-        icon: "KS_nav_ui.png",
-        id: "__alloyId48"
-    });
-    __alloyId47.push($.__views.__alloyId48);
-    $.__views.__alloyId56 = Ti.UI.createWindow({
-        backgroundColor: "#fff",
-        title: "About Us",
-        id: "__alloyId56"
-    });
-    $.__views.__alloyId57 = Ti.UI.createTextArea({
-        value: "Are you tired of always ordering the wrong size online? Don't worry any longer! One-Size Shop offers clothes in solely one size! If it fit it fits, if it doesn't, well.. than it simply doesn't! You can return your items within 30 days of the day of recieving your order. We ship world-wide!",
-        font: "",
-        id: "__alloyId57"
-    });
-    $.__views.__alloyId56.add($.__views.__alloyId57);
-    $.__views.__alloyId55 = Ti.UI.createTab({
-        window: $.__views.__alloyId56,
-        title: "About Us",
-        icon: "/info.png",
+    __alloyId53.push($.__views.__alloyId54);
+    $.__views.__alloyId55 = Ti.UI.createView({
+        height: "80%",
         id: "__alloyId55"
     });
-    __alloyId47.push($.__views.__alloyId55);
-    $.__views.__alloyId59 = Ti.UI.createWindow({
-        backgroundColor: "#fff",
-        title: "Contact Us",
-        id: "__alloyId59"
+    $.__views.__alloyId54.add($.__views.__alloyId55);
+    $.__views.__alloyId56 = Ti.UI.createImageView({
+        image: "/shopnow.png",
+        id: "__alloyId56"
     });
-    var __alloyId61 = [];
-    $.__views.row = Ti.UI.createTableViewRow({
-        id: "row"
+    $.__views.__alloyId55.add($.__views.__alloyId56);
+    categories ? $.addListener($.__views.__alloyId56, "click", categories) : __defers["$.__views.__alloyId56!click!categories"] = true;
+    $.__views.__alloyId57 = Ti.UI.createTableViewRow({
+        id: "__alloyId57"
     });
-    __alloyId61.push($.__views.row);
-    $.__views.view = Ti.UI.createView({
-        id: "view",
-        layout: "horizontal",
-        height: "50%"
-    });
-    $.__views.row.add($.__views.view);
-    $.__views.__alloyId62 = Ti.UI.createTextArea({
-        left: "10dp",
-        backgroundColor: "transparent",
-        value: "Eline Saarloos\nStudent number: 15501701\nCountry: Netherlands\nPhone: 5244 9691\nEmail: 15501701@life.hkbu.edu.hk",
-        id: "__alloyId62"
-    });
-    $.__views.view.add($.__views.__alloyId62);
-    $.__views.image = Ti.UI.createImageView({
-        id: "image",
-        image: "/Eline.png",
-        height: "120dp",
-        width: "120dp",
-        right: "10dp"
-    });
-    $.__views.view.add($.__views.image);
-    $.__views.row = Ti.UI.createTableViewRow({
-        id: "row"
-    });
-    __alloyId61.push($.__views.row);
-    $.__views.view = Ti.UI.createView({
-        id: "view",
-        layout: "horizontal",
-        height: "50%"
-    });
-    $.__views.row.add($.__views.view);
-    $.__views.image = Ti.UI.createImageView({
-        id: "image",
-        image: "/SunXiaomeng.jpg",
-        height: "120dp",
-        width: "120dp",
-        left: "10dp"
-    });
-    $.__views.view.add($.__views.image);
-    $.__views.__alloyId63 = Ti.UI.createTextArea({
-        left: "10dp",
-        backgroundColor: "transparent",
-        value: "Sun Xiaomeng\nStudent number: 12251216\nCountry: China\nPhone: 5612 7210\nEmail: 12251216@life.hkbu.edu.hk",
-        id: "__alloyId63"
-    });
-    $.__views.view.add($.__views.__alloyId63);
-    $.__views.__alloyId60 = Ti.UI.createTableView({
-        data: __alloyId61,
-        id: "__alloyId60"
-    });
-    $.__views.__alloyId59.add($.__views.__alloyId60);
-    $.__views.__alloyId58 = Ti.UI.createTab({
-        window: $.__views.__alloyId59,
-        title: "Contact Us",
-        icon: "/contact.png",
+    __alloyId53.push($.__views.__alloyId57);
+    $.__views.__alloyId58 = Ti.UI.createView({
+        height: "17%",
         id: "__alloyId58"
     });
-    __alloyId47.push($.__views.__alloyId58);
-    $.__views.__alloyId65 = Ti.UI.createWindow({
+    $.__views.__alloyId57.add($.__views.__alloyId58);
+    about ? $.addListener($.__views.__alloyId58, "click", about) : __defers["$.__views.__alloyId58!click!about"] = true;
+    $.__views.__alloyId59 = Ti.UI.createTextField({
+        value: "One-Size Shop",
+        editable: "false",
+        id: "__alloyId59"
+    });
+    $.__views.__alloyId58.add($.__views.__alloyId59);
+    $.__views.__alloyId52 = Ti.UI.createTableView({
+        data: __alloyId53,
+        id: "__alloyId52"
+    });
+    $.__views.__alloyId51.add($.__views.__alloyId52);
+    $.__views.__alloyId50 = Ti.UI.createTab({
+        window: $.__views.__alloyId51,
+        title: "Home",
+        icon: "KS_nav_ui.png",
+        id: "__alloyId50"
+    });
+    __alloyId49.push($.__views.__alloyId50);
+    $.__views.__alloyId61 = Ti.UI.createWindow({
         backgroundColor: "#fff",
         title: "My Cart",
-        id: "__alloyId65"
+        id: "__alloyId61"
     });
-    $.__views.__alloyId66 = Ti.UI.createView({
+    $.__views.__alloyId62 = Ti.UI.createView({
         layout: "horizontal",
-        id: "__alloyId66"
+        id: "__alloyId62"
     });
-    $.__views.__alloyId65.add($.__views.__alloyId66);
-    $.__views.__alloyId67 = Ti.UI.createTextArea({
+    $.__views.__alloyId61.add($.__views.__alloyId62);
+    $.__views.__alloyId63 = Ti.UI.createTextArea({
         font: "",
         textAlign: "left",
         width: "100dp",
         left: "20dp",
         value: "Item Name",
-        id: "__alloyId67"
+        id: "__alloyId63"
     });
-    $.__views.__alloyId66.add($.__views.__alloyId67);
-    $.__views.__alloyId68 = Ti.UI.createTextArea({
+    $.__views.__alloyId62.add($.__views.__alloyId63);
+    $.__views.__alloyId64 = Ti.UI.createTextArea({
         font: "",
         textAlign: "center",
         width: "62dp",
         left: "73dp",
         value: "Number",
-        id: "__alloyId68"
+        id: "__alloyId64"
     });
-    $.__views.__alloyId66.add($.__views.__alloyId68);
-    $.__views.__alloyId69 = Ti.UI.createTextArea({
+    $.__views.__alloyId62.add($.__views.__alloyId64);
+    $.__views.__alloyId65 = Ti.UI.createTextArea({
         font: "",
         textAlign: "right",
         width: "78dp",
         left: "0dp",
         value: "Total Price",
-        id: "__alloyId69"
+        id: "__alloyId65"
     });
-    $.__views.__alloyId66.add($.__views.__alloyId69);
-    $.__views.__alloyId70 = Ti.UI.createButton({
+    $.__views.__alloyId62.add($.__views.__alloyId65);
+    $.__views.__alloyId66 = Ti.UI.createButton({
         title: "Delete All",
         textAlign: "center",
         left: "70%",
-        id: "__alloyId70"
+        id: "__alloyId66"
     });
-    $.__views.__alloyId66.add($.__views.__alloyId70);
-    deleteAll ? $.addListener($.__views.__alloyId70, "click", deleteAll) : __defers["$.__views.__alloyId70!click!deleteAll"] = true;
-    $.__views.__alloyId71 = Ti.UI.createTableView({
+    $.__views.__alloyId62.add($.__views.__alloyId66);
+    deleteAll ? $.addListener($.__views.__alloyId66, "click", deleteAll) : __defers["$.__views.__alloyId66!click!deleteAll"] = true;
+    $.__views.__alloyId67 = Ti.UI.createTableView({
         width: "90%",
-        id: "__alloyId71"
+        id: "__alloyId67"
     });
-    $.__views.__alloyId66.add($.__views.__alloyId71);
-    var __alloyId83 = Alloy.Collections["cart"] || cart;
-    __alloyId83.on("fetch destroy change add remove reset", __alloyId84);
-    $.__views.__alloyId64 = Ti.UI.createTab({
-        window: $.__views.__alloyId65,
+    $.__views.__alloyId62.add($.__views.__alloyId67);
+    var __alloyId79 = Alloy.Collections["cart"] || cart;
+    __alloyId79.on("fetch destroy change add remove reset", __alloyId80);
+    $.__views.__alloyId60 = Ti.UI.createTab({
+        window: $.__views.__alloyId61,
         title: "Cart",
         icon: "/cart.png",
-        id: "__alloyId64"
+        id: "__alloyId60"
     });
-    __alloyId47.push($.__views.__alloyId64);
+    __alloyId49.push($.__views.__alloyId60);
+    $.__views.__alloyId82 = Ti.UI.createWindow({
+        backgroundColor: "#fff",
+        title: "Contact Us",
+        id: "__alloyId82"
+    });
+    var __alloyId84 = [];
+    $.__views.__alloyId85 = Ti.UI.createTableViewRow({
+        id: "__alloyId85"
+    });
+    __alloyId84.push($.__views.__alloyId85);
+    $.__views.__alloyId86 = Ti.UI.createView({
+        layout: "horizontal",
+        height: "50%",
+        id: "__alloyId86"
+    });
+    $.__views.__alloyId85.add($.__views.__alloyId86);
+    $.__views.__alloyId87 = Ti.UI.createTextArea({
+        left: "10dp",
+        backgroundColor: "transparent",
+        value: "Eline Saarloos\nStudent number: 15501701\nCountry: Netherlands\nPhone: 5244 9691\nEmail: 15501701@life.hkbu.edu.hk",
+        id: "__alloyId87"
+    });
+    $.__views.__alloyId86.add($.__views.__alloyId87);
+    $.__views.__alloyId88 = Ti.UI.createImageView({
+        image: "/Eline.png",
+        height: "120dp",
+        width: "120dp",
+        right: "10dp",
+        id: "__alloyId88"
+    });
+    $.__views.__alloyId86.add($.__views.__alloyId88);
+    $.__views.__alloyId89 = Ti.UI.createTableViewRow({
+        id: "__alloyId89"
+    });
+    __alloyId84.push($.__views.__alloyId89);
+    $.__views.__alloyId90 = Ti.UI.createView({
+        layout: "horizontal",
+        height: "50%",
+        id: "__alloyId90"
+    });
+    $.__views.__alloyId89.add($.__views.__alloyId90);
+    $.__views.__alloyId91 = Ti.UI.createImageView({
+        image: "/SunXiaomeng.jpg",
+        height: "120dp",
+        width: "120dp",
+        left: "10dp",
+        id: "__alloyId91"
+    });
+    $.__views.__alloyId90.add($.__views.__alloyId91);
+    $.__views.__alloyId92 = Ti.UI.createTextArea({
+        left: "10dp",
+        backgroundColor: "transparent",
+        value: "Sun Xiaomeng\nStudent number: 12251216\nCountry: China\nPhone: 5612 7210\nEmail: 12251216@life.hkbu.edu.hk",
+        id: "__alloyId92"
+    });
+    $.__views.__alloyId90.add($.__views.__alloyId92);
+    $.__views.__alloyId83 = Ti.UI.createTableView({
+        data: __alloyId84,
+        id: "__alloyId83"
+    });
+    $.__views.__alloyId82.add($.__views.__alloyId83);
+    $.__views.__alloyId81 = Ti.UI.createTab({
+        window: $.__views.__alloyId82,
+        title: "Contact Us",
+        icon: "/contact.png",
+        id: "__alloyId81"
+    });
+    __alloyId49.push($.__views.__alloyId81);
     $.__views.index = Ti.UI.createTabGroup({
-        tabs: __alloyId47,
+        tabs: __alloyId49,
         id: "index"
     });
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {
-        __alloyId83.off("fetch destroy change add remove reset", __alloyId84);
+        __alloyId79.off("fetch destroy change add remove reset", __alloyId80);
     };
     _.extend($, $.__views);
     $.index.open();
@@ -299,9 +284,10 @@ function Controller() {
     Alloy.Collections.cart.fetch();
     var cartObject = Alloy.Collections.cart;
     Alloy.Globals.tabGroup = $.index;
-    __defers["$.__views.homeImage!click!categories"] && $.addListener($.__views.homeImage, "click", categories);
-    __defers["$.__views.__alloyId70!click!deleteAll"] && $.addListener($.__views.__alloyId70, "click", deleteAll);
-    __defers["__alloyId82!click!deleteOne"] && $.addListener(__alloyId82, "click", deleteOne);
+    __defers["$.__views.__alloyId56!click!categories"] && $.addListener($.__views.__alloyId56, "click", categories);
+    __defers["$.__views.__alloyId58!click!about"] && $.addListener($.__views.__alloyId58, "click", about);
+    __defers["$.__views.__alloyId66!click!deleteAll"] && $.addListener($.__views.__alloyId66, "click", deleteAll);
+    __defers["__alloyId78!click!deleteOne"] && $.addListener(__alloyId78, "click", deleteOne);
     _.extend($, exports);
 }
 

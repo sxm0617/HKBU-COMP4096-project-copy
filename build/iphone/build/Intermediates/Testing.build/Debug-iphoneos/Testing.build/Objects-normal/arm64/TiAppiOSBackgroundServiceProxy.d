@@ -18,9 +18,6 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBase.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiThreading.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPublicAPI.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollBridge.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Bridge.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiModule.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUtils.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiDimension.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiColor.h \
@@ -30,7 +27,10 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBlob.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiApp.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiHost.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Bridge.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiStylesheet.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollBridge.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiModule.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/XHRBridge.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRootViewController.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h \

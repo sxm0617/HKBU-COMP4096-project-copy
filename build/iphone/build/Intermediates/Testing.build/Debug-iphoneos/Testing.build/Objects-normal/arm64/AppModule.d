@@ -45,6 +45,4 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiGradient.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRect.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewTemplate.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAppiOSProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiLayoutQueue.h

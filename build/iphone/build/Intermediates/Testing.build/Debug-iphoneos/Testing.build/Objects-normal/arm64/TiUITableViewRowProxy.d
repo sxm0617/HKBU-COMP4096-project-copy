@@ -39,7 +39,6 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableViewSectionProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableView.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUISearchBarProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIRefreshControlProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Webcolor.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/ImageLoader.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h \

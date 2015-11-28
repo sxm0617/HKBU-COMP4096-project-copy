@@ -24,10 +24,6 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    $.__views.cart = Ti.UI.createWindow({
-        id: "cart"
-    });
-    $.__views.cart && $.addTopLevelView($.__views.cart);
     exports.destroy = function() {};
     _.extend($, $.__views);
     arguments[0] || {};

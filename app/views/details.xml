@@ -1,19 +1,16 @@
 <Alloy>
 	<Collection src="items"/>
-	<Window class="container" backgroundColor="white">
+	<Window backgroundColor="white">
 		<TableView dataCollection="items" dataFilter="showDetails">
 			<TableViewRow layout="vertical" height="100%">
 				<ImageView  image="{images}" height="350dp" width="250dp" top="25dp" />
-				<Label  text="{name}" /> 
+				<Label  text="{name}"  /> 
 				<Label  text="{price}" />
-				<Label  text="{info}" />
-				<!--
-				<Label  text="Please input the number from 1 to 9" top="10dp"/>
-				<TextArea  id="itemNumber" textAlign="center" borderColor="#000" width="20dp" maxLength="1" />
-				-->
-				<Button id="button" title="Add to cart" bottom="25dp" width="100dp" height="50dp" onClick="addItem"/>
-				
+				<Label  text="{info}"  />			
 			</TableViewRow>
 		</TableView>
+		<Label  text="Please input the number from 1 to 9" top="80%" />
+		<TextArea id="textarea" textAlign="center" borderColor="#000" width="20dp" top="85%" maxLength="1" />				
+		<Button title="Add to cart" top="90%" width="100dp" height="50dp" onClick="addItem" />	
 	</Window>
 </Alloy>

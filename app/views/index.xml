@@ -6,45 +6,16 @@
 			<Window title="Home Page">
 				<TableView>
 					<TableViewRow >
-						<View id="view" height="50%">
-							<ImageView id="homeImage" image="/shopnow.png" onClick="categories" />
+						<View height="80%">
+							<ImageView image="/shopnow.png" onClick="categories" />
 						</View>
 					</TableViewRow>
 					
 					<TableViewRow >
-						<View id="view" height="50%">
+						<View height="17%" onClick="about">
 							<TextField value="One-Size Shop" editable="false"/>
 						</View>
 					</TableViewRow>
-				</TableView>
-			</Window>
-		</Tab>
-		
-		<Tab title="About Us" icon="/info.png">
-			<Window title="About Us"> 			
-				<TextArea value="Are you tired of always ordering the wrong size online? Don't worry any longer! One-Size Shop offers clothes in solely one size! If it fit it fits, if it doesn't, well.. than it simply doesn't! You can return your items within 30 days of the day of recieving your order. We ship world-wide!"
-					 font="" />
-			</Window>
-		</Tab>
-		
-		<Tab title="Contact Us" icon="/contact.png">
-			<Window title="Contact Us"> 
-				<TableView >					
-					<TableViewRow id="row" >
-						<View id="view" layout="horizontal" height="50%">								
-							<TextArea left="10dp" backgroundColor="transparent"
-								value = "Eline Saarloos\nStudent number: 15501701\nCountry: Netherlands\nPhone: 5244 9691\nEmail: 15501701@life.hkbu.edu.hk" />							
-							<ImageView id="image" image="/Eline.png" height= "120dp" width = "120dp" right="10dp"/>
-						</View>
-					</TableViewRow>
-					
-					<TableViewRow id="row" >
-						<View id="view" layout="horizontal" height="50%">
-							<ImageView id="image" image="/SunXiaomeng.jpg" height= "120dp" width = "120dp" left="10dp"/>
-							<TextArea left="10dp" backgroundColor = "transparent" 
-								value="Sun Xiaomeng\nStudent number: 12251216\nCountry: China\nPhone: 5612 7210\nEmail: 12251216@life.hkbu.edu.hk"/>
-						</View>
-					</TableViewRow>					
 				</TableView>
 			</Window>
 		</Tab>
@@ -65,6 +36,28 @@
 	        			</TableViewRow>     
 	        		</TableView>
         		</View>       			
+			</Window>
+		</Tab>
+		
+		<Tab title="Contact Us" icon="/contact.png">
+			<Window title="Contact Us"> 
+				<TableView >					
+					<TableViewRow>
+						<View layout="horizontal" height="50%">								
+							<TextArea left="10dp" backgroundColor="transparent"
+								value = "Eline Saarloos\nStudent number: 15501701\nCountry: Netherlands\nPhone: 5244 9691\nEmail: 15501701@life.hkbu.edu.hk" />							
+							<ImageView image="/Eline.png" height= "120dp" width = "120dp" right="10dp"/>
+						</View>
+					</TableViewRow>
+					
+					<TableViewRow>
+						<View layout="horizontal" height="50%">
+							<ImageView image="/SunXiaomeng.jpg" height= "120dp" width = "120dp" left="10dp"/>
+							<TextArea left="10dp" backgroundColor = "transparent" 
+								value="Sun Xiaomeng\nStudent number: 12251216\nCountry: China\nPhone: 5612 7210\nEmail: 12251216@life.hkbu.edu.hk"/>
+						</View>
+					</TableViewRow>					
+				</TableView>
 			</Window>
 		</Tab>
 	</TabGroup>

@@ -36,5 +36,4 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRect.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewTemplate.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/UIImage+Resize.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIAttributedStringProxy.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/UIImage+Resize.h

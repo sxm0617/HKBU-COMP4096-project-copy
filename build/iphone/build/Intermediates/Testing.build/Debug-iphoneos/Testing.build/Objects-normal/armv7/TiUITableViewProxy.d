@@ -40,7 +40,6 @@ dependencies: \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableViewSectionProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUITableViewAction.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUISearchBarProxy.h \
-  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIRefreshControlProxy.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiComplexValue.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiApp.h \
   /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiHost.h \

@@ -1,6 +1,6 @@
 <Alloy>
 	<Collection src="items"/>
-    <Window id="win" backgroundColor="white" exitOnClose="true" title="Dresses">
+    <Window backgroundColor="white" exitOnClose="true" title="Dresses">
   		<TableView dataCollection="items" dataFilter="showCatagory" dataTransform="addPath" onClick="showItem">
   			<TableViewRow layout="vertical" pid="{id}" height="50%">
             	<ImageView image="{imagesWithPath}" height="200dp" width="150dp" top="5%"/>
