@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.m \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/AudioStreamer/AudioStreamer.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.m \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/AudioStreamer/AudioStreamer.h

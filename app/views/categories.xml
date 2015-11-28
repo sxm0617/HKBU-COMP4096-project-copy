@@ -1,9 +1,21 @@
 <Alloy>    
 	<Window title="Categories" id="Categories" backgroundColor="white" class="container">
-		<ImageView image="/jackets.jpg"  height="150dp" width="100dp" top="50dp"    left="25dp"  onClick="jackets"/>
-		<ImageView image="/dresses.jpg"  height="150dp" width="100dp" top="50dp"    right="25dp" onClick="dresses" />
-		<ImageView image="/trousers.jpg" height="150dp" width="100dp" bottom="50dp" left="25dp"  onClick="trousers"/>
-		<ImageView image="/tops.jpg"     height="150dp" width="100dp" bottom="50dp" right="25dp" onClick="tops"/> 
+		<View layout="vertical" height="50%" width="50%"    top="10%"     left="0%">
+			<ImageView image="/jackets.jpg"  height="150dp" width="100dp" onClick="jackets" />
+			<Label text="Jackets" />							
+		</View>
+		<View layout="vertical" height="50%" width="50%"    top="10%"     right="0%">
+			<ImageView image="/dresses.jpg"  height="150dp" width="100dp" onClick="dresses" />
+			<Label text="Dresses" />
+		</View>
+		<View layout="vertical" height="50%" width="50%"    top="60%"     left="0%">
+			<ImageView image="/trousers.jpg" height="150dp" width="100dp" onClick="trousers"/>
+			<Label text="Trousers" />
+		</View>
+		<View layout="vertical" height="50%" width="50%"    top="60%"     right="0%">
+			<ImageView image="/tops.jpg"     height="150dp" width="100dp" onClick="tops"/> 
+			<Label text="Tops" />
+		</View>	
 	</Window>
 </Alloy>
 

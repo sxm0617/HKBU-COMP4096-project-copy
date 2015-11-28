@@ -3050,179 +3050,214 @@
 			"mtime": "2015-11-26T05:22:30.000Z",
 			"size": 175297
 		},
+		"Eline.png": {
+			"hash": "7aa4c3ca0ecaa2811e703b38e680fd0d",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 713181
+		},
 		"KS_nav_ui.png": {
 			"hash": "44b858efb4281fd3445f546578c0416e",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 1158
 		},
 		"KS_nav_views.png": {
 			"hash": "255898b8828b2933109ae3964c07bace",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 1074
+		},
+		"SunXiaomeng.jpg": {
+			"hash": "59be65cbc9dfc5caeaa85769fb9f2cc4",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 184351
 		},
 		"blackberry/Ti.Manifest": {
 			"hash": "664c3db20c1f3219357ccf071eee34b8",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 9
 		},
 		"blackberry/appicon.png": {
 			"hash": "e1c74112568dadc5995ab9b0e7fd9ad9",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 12695
 		},
 		"blackberry/map/bubble.png": {
 			"hash": "97b513b20a780a4fba4316aeb64b194e",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 2529
 		},
 		"blackberry/map/green_pin.png": {
 			"hash": "2282bede49225f7514e5003b8021f568",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 1962
 		},
 		"blackberry/map/purple_pin.png": {
 			"hash": "d201f2d29ab7588844a4ace27e0141b6",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 2113
 		},
 		"blackberry/map/red_pin.png": {
 			"hash": "32b78e57727c0c3f440f2c67f70cbd65",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 2144
 		},
 		"blackberry/splash-600x1024.png": {
 			"hash": "e5db9b72e7cb0a54143118526ac59f34",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 71161
+		},
+		"cart.png": {
+			"hash": "42ce8bf329f2008d8fac77df0f784ac7",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 317
+		},
+		"contact.png": {
+			"hash": "ac6e98364b9f7ac09fbd483a413bea13",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 355
 		},
 		"dress4.jpg": {
 			"hash": "17d7d2925b003ff1e07f5c3ee5bfebc5",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 244516
 		},
 		"dress5.jpg": {
 			"hash": "d37e05328fd1381a381037c1acdfc24e",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 154307
 		},
 		"dress6.jpg": {
 			"hash": "f9660bf8740948dc1caa7cf3abd81b0d",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 141772
 		},
 		"dresses.jpg": {
 			"hash": "156ff49b04be88005c0305fad028d71e",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 32118
+		},
+		"home.png": {
+			"hash": "91f1409bce28c28cc8ee5c551d304c90",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 239
 		},
 		"iTunesArtwork": {
 			"hash": "9dad22d287c61a10be5993082f017d38",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 151843
 		},
 		"iTunesArtwork@2x": {
 			"hash": "7de60328649d012243353d89c250f2e8",
-			"mtime": "2015-11-26T05:56:31.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 211013
+		},
+		"info.png": {
+			"hash": "ed15f3fbac0eccfd6f24050dab53046f",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 487
 		},
 		"jacket1.jpg": {
 			"hash": "cb268deac0ae563acf22f83d8a7a54f7",
-			"mtime": "2015-11-26T08:03:08.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 158112
 		},
 		"jacket2.jpg": {
 			"hash": "a36b7b478c78911af4ef73a7e0adfc56",
-			"mtime": "2015-11-26T08:16:48.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 155832
 		},
 		"jacket3.jpg": {
 			"hash": "9b76d0ab6f9ed15eb19720b125181a76",
-			"mtime": "2015-11-26T08:03:08.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 158620
 		},
 		"jackets.jpg": {
 			"hash": "bfd9ad9a67abdad55ce75b7032a95b84",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 48579
 		},
 		"sale.png": {
 			"hash": "6791c12b3cba9fd6a06afee696e6055d",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 80087
 		},
 		"shop.sqlite": {
-			"hash": "227fc854bad32caf1930e2c884baf8c3",
-			"mtime": "2015-11-26T08:37:41.000Z",
-			"size": 131072
+			"hash": "1ccd6412311e21c3718c769d310e4863",
+			"mtime": "2015-11-28T08:26:17.000Z",
+			"size": 163840
 		},
 		"shopnow.png": {
 			"hash": "40c3dfaf57de3594220623319fccfd5d",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 8517
+		},
+		"star.png": {
+			"hash": "fabc1506c21d302bd604ea93a6f8fa4c",
+			"mtime": "2015-11-28T06:19:48.000Z",
+			"size": 509
 		},
 		"top7.jpg": {
 			"hash": "59a96e771b742d94c8b8412cea2ffb4a",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 151966
 		},
 		"top8.jpg": {
 			"hash": "85e3444455435a02c5088cb3b1ce118d",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 144453
 		},
 		"top9.jpg": {
 			"hash": "355f2eb2a568039733caa93318f915d2",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 151662
 		},
 		"tops.jpg": {
 			"hash": "5bbff591196906f299ff92fd06f932bb",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 27036
 		},
 		"trouser10.jpg": {
 			"hash": "3d3f9c8571e6a5481a92553be73dac6c",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 256642
 		},
 		"trouser11.jpg": {
 			"hash": "ac0143e09c3758212dbe286d1e348de7",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 242354
 		},
 		"trouser12.jpg": {
 			"hash": "c5b58d68e55c16ecf5c33383fca5981c",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 157441
 		},
 		"trousers.jpg": {
 			"hash": "ce0bd463f997dfe46b8401ca00125ddc",
-			"mtime": "2015-11-26T05:56:29.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 47088
 		},
 		"Default-568h@2x.png": {
 			"hash": "7c162b498ea9255488db3baf191d55fc",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 502634
 		},
 		"Default-667h@2x.png": {
 			"hash": "cdba9c1dc1d00bb40c107970ab1ed5f1",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 773314
 		},
 		"Default-Landscape-736h@3x.png": {
 			"hash": "d98f5e158810775461d402c54baf1c94",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 1863539
 		},
 		"Default-Portrait-736h@3x.png": {
 			"hash": "8f37e1fb95f588d3e81cdfb244730b84",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 1734238
 		},
 		"Default@2x.png": {
 			"hash": "a9de39ae235125f5d00fe33052767898",
-			"mtime": "2015-11-26T05:56:30.000Z",
+			"mtime": "2015-11-28T06:19:48.000Z",
 			"size": 343708
 		},
 		"Classes/ApplicationRouting.m": {
@@ -3271,5 +3306,6 @@
 	"encryptJS": false,
 	"useJSCore": false,
 	"runOnMainThread": false,
-	"useAutoLayout": false
+	"useAutoLayout": false,
+	"liveview": true
 }

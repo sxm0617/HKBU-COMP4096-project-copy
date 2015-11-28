@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiUIiOSPreviewContextProxy.m
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIiOSPreviewContextProxy.m

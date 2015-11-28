@@ -1,0 +1,27 @@
+-x
+c
+-arch
+arm64
+-std=c99
+-fmodules
+-fmodules-cache-path=/Users/xdeveloper/Desktop/Testing/build/iphone/ModuleCache
+-fbuild-session-file=/Users/xdeveloper/Desktop/Testing/build/iphone/ModuleCache/Session.modulevalidation
+-fpascal-strings
+-O0
+-DDEPLOYTYPE=development
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk
+-g
+-fvisibility=hidden
+-miphoneos-version-min=7.1
+-iquote
+-iquote
+-I/Users/xdeveloper/Desktop/Testing/build/iphone/build/Products/Debug-iphoneos/include
+-I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/include/libxml2
+-Iheaders
+-F/Users/xdeveloper/Desktop/Testing/build/iphone/build/Products/Debug-iphoneos
+-DDEBUG
+aarch64-apple-darwin14.4.0
+"4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)"
+SDK_PRODUCT_BUILD_VERSION=12H141
+12H141

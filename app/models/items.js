@@ -1,10 +1,9 @@
 exports.definition = {
+	
 	config: {
-
-
 		adapter: {
 			type: "sql",
-			collection_name: "items",
+			collection_name: "items", 
 			db_file:"/shop.sqlite",
 			idAttribute: "id"
 		}

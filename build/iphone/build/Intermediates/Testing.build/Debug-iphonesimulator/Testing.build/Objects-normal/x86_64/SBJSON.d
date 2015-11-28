@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/SBJSON.m \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/SBJSON.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiProxy.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiEvaluator.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/KrollContext.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiToJS.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/SBJSON.m \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/SBJSON.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiProxy.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiEvaluator.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollContext.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiToJS.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -12,12 +12,12 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/KrollCallback.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/KrollObject.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiBase.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiThreading.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiPublicAPI.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiHost.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/Bridge.h \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/TiStylesheet.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollCallback.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollObject.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBase.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiThreading.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPublicAPI.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiHost.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Bridge.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiStylesheet.h

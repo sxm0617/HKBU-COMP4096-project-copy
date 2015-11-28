@@ -8,42 +8,72 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
-    function __alloyId19(e) {
+    function __alloyId28(e) {
         if (e && e.fromAdapter) return;
-        __alloyId19.opts || {};
-        var models = showDetails(__alloyId18);
+        __alloyId28.opts || {};
+        var models = showDetails(__alloyId27);
         var len = models.length;
         var rows = [];
         for (var i = 0; len > i; i++) {
-            var __alloyId7 = models[i];
-            __alloyId7.__transform = {};
-            var __alloyId9 = Ti.UI.createTableViewRow({
-                layout: "vertical"
+            var __alloyId15 = models[i];
+            __alloyId15.__transform = {};
+            var __alloyId17 = Ti.UI.createTableViewRow({
+                layout: "vertical",
+                height: "100%"
             });
-            rows.push(__alloyId9);
-            var __alloyId11 = Ti.UI.createImageView({
-                image: "undefined" != typeof __alloyId7.__transform["images"] ? __alloyId7.__transform["images"] : __alloyId7.get("images")
+            rows.push(__alloyId17);
+            var __alloyId19 = Ti.UI.createImageView({
+                image: "undefined" != typeof __alloyId15.__transform["images"] ? __alloyId15.__transform["images"] : __alloyId15.get("images"),
+                height: "350dp",
+                width: "250dp",
+                top: "25dp"
             });
-            __alloyId9.add(__alloyId11);
-            var __alloyId13 = Ti.UI.createLabel({
-                text: "undefined" != typeof __alloyId7.__transform["name"] ? __alloyId7.__transform["name"] : __alloyId7.get("name")
+            __alloyId17.add(__alloyId19);
+            var __alloyId21 = Ti.UI.createLabel({
+                text: "undefined" != typeof __alloyId15.__transform["name"] ? __alloyId15.__transform["name"] : __alloyId15.get("name")
             });
-            __alloyId9.add(__alloyId13);
-            var __alloyId15 = Ti.UI.createLabel({
-                text: "undefined" != typeof __alloyId7.__transform["price"] ? __alloyId7.__transform["price"] : __alloyId7.get("price")
+            __alloyId17.add(__alloyId21);
+            var __alloyId23 = Ti.UI.createLabel({
+                text: "undefined" != typeof __alloyId15.__transform["price"] ? __alloyId15.__transform["price"] : __alloyId15.get("price")
             });
-            __alloyId9.add(__alloyId15);
-            var __alloyId17 = Ti.UI.createLabel({
-                text: "undefined" != typeof __alloyId7.__transform["info"] ? __alloyId7.__transform["info"] : __alloyId7.get("info")
+            __alloyId17.add(__alloyId23);
+            var __alloyId25 = Ti.UI.createLabel({
+                text: "undefined" != typeof __alloyId15.__transform["info"] ? __alloyId15.__transform["info"] : __alloyId15.get("info")
             });
-            __alloyId9.add(__alloyId17);
+            __alloyId17.add(__alloyId25);
+            var __alloyId26 = Ti.UI.createButton({
+                title: "Add to cart",
+                bottom: "25dp",
+                width: "100dp",
+                height: "50dp"
+            });
+            __alloyId17.add(__alloyId26);
+            addItem ? $.addListener(__alloyId26, "click", addItem) : __defers["__alloyId26!click!addItem"] = true;
         }
-        $.__views.__alloyId6.setData(rows);
+        $.__views.__alloyId14.setData(rows);
     }
     function showDetails(collection) {
         return collection.where({
             id: args.pid
         });
+    }
+    function addItem(item) {
+        var itemModel = Alloy.Collections.items;
+        var itemCollections = itemModel.toJSON();
+        item = itemCollections[args.pid - 1];
+        var numberOfItem = item.number;
+        if (0 == numberOfItem) alert("No goods in the storage!!"); else {
+            var model = Alloy.createModel("cart", {
+                item_id: item.id,
+                item_name: item.name,
+                item_price: item.price,
+                item_number: 1,
+                total_price: item.price
+            });
+            Alloy.Collections.cart.add(model);
+            model.save();
+            alert("Item Added to cart!");
+        }
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "details";
@@ -61,25 +91,27 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
+    var __defers = {};
     Alloy.Collections.instance("items");
     $.__views.details = Ti.UI.createWindow({
         backgroundColor: "white",
         id: "details"
     });
     $.__views.details && $.addTopLevelView($.__views.details);
-    $.__views.__alloyId6 = Ti.UI.createTableView({
-        id: "__alloyId6"
+    $.__views.__alloyId14 = Ti.UI.createTableView({
+        id: "__alloyId14"
     });
-    $.__views.details.add($.__views.__alloyId6);
-    var __alloyId18 = Alloy.Collections["items"] || items;
-    __alloyId18.on("fetch destroy change add remove reset", __alloyId19);
+    $.__views.details.add($.__views.__alloyId14);
+    var __alloyId27 = Alloy.Collections["items"] || items;
+    __alloyId27.on("fetch destroy change add remove reset", __alloyId28);
     exports.destroy = function() {
-        __alloyId18.off("fetch destroy change add remove reset", __alloyId19);
+        __alloyId27.off("fetch destroy change add remove reset", __alloyId28);
     };
     _.extend($, $.__views);
     var args = arguments[0] || {};
     console.log(args.pid);
     Alloy.Collections.items.fetch();
+    __defers["__alloyId26!click!addItem"] && $.addListener(__alloyId26, "click", addItem);
     _.extend($, exports);
 }
 

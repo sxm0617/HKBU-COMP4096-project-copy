@@ -2,8 +2,8 @@
 	<Collection src="items"/>
     <Window id="win" backgroundColor="white" exitOnClose="true" title="Jackets">
   		<TableView dataCollection="items" dataFilter="showCatagory" dataTransform="addPath" onClick="showItem">
-  			<TableViewRow layout="vertical" pid="{id}">
-	            <ImageView image="{imagesWithPath}" height="200dp" width="150dp" top="50dp" left="100dp"/>
+  			<TableViewRow layout="vertical" pid="{id}" height="50%">
+	            <ImageView image="{imagesWithPath}" height="200dp" width="150dp" top="10%"/>
 	            <Label text="{name}"/>
 	            <Label text="{price}"/>
             </TableViewRow>

@@ -1,2 +1,51 @@
 dependencies: \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/MediaModule.m
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/MediaModule.m \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/MediaModule.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiModule.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiProxy.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiEvaluator.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollContext.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiToJS.h \
+  headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
+  headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
+  headers/JavaScriptCore/TiObjectRef.h \
+  headers/JavaScriptCore/TiValueRef.h \
+  headers/JavaScriptCore/WebKitAvailability.h \
+  headers/JavaScriptCore/TiStringRef.h \
+  headers/JavaScriptCore/TiStringRefCF.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollCallback.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollObject.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBase.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiThreading.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPublicAPI.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUtils.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiDimension.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiColor.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/WebFont.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiFile.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBuffer.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiBlob.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiMediaAudioSession.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiMediaMusicPlayer.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiMediaItem.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewProxy.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiUIView.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiAnimation.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiPoint.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/ListenerEntry.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/LayoutConstraint.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiGradient.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRect.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiViewTemplate.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiApp.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiHost.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Bridge.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiStylesheet.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/KrollBridge.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/XHRBridge.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiRootViewController.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/TiControllerProtocols.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Mimetypes.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/Ti2DMatrix.h \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/SCListener.h

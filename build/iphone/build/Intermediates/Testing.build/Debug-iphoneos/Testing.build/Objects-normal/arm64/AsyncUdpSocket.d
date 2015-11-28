@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/AsyncUdpSocket.m \
-  /Users/xdeveloper/Documents/Appcelerator_Studio_Workspace/Testing/build/iphone/Classes/AsyncUdpSocket.h
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/AsyncUdpSocket.m \
+  /Users/xdeveloper/Desktop/Testing/build/iphone/Classes/AsyncUdpSocket.h

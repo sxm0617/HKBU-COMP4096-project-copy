@@ -2,17 +2,18 @@
 	<Collection src="items"/>
 	<Window class="container" backgroundColor="white">
 		<TableView dataCollection="items" dataFilter="showDetails">
-			<TableViewRow layout="vertical">
-				<ImageView  image="{images}" />
-				<Label  text="{name}"/> 
-				<Label  text="{price}"/>
-				<Label  text="{info}"/>
+			<TableViewRow layout="vertical" height="100%">
+				<ImageView  image="{images}" height="350dp" width="250dp" top="25dp" />
+				<Label  text="{name}" /> 
+				<Label  text="{price}" />
+				<Label  text="{info}" />
+				<!--
+				<Label  text="Please input the number from 1 to 9" top="10dp"/>
+				<TextArea  id="itemNumber" textAlign="center" borderColor="#000" width="20dp" maxLength="1" />
+				-->
+				<Button id="button" title="Add to cart" bottom="25dp" width="100dp" height="50dp" onClick="addItem"/>
+				
 			</TableViewRow>
-		<!-- <TableviewRow>
-			<!-- Here there should be a button that says: Add to cart.
-			If you press this button it should check in the DB if number </= 0 tha display: out of stock, Sorry!
-			if number > 0 it should be added to the cart page. 
-			Cart page should display items that are added. and has some functionallity too. See cart.xml -->
 		</TableView>
 	</Window>
 </Alloy>
