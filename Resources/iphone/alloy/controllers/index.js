@@ -48,7 +48,8 @@ function Controller() {
             var __alloyId78 = Ti.UI.createButton({
                 title: "Delete",
                 textAlign: "center",
-                left: "85%"
+                left: "85%",
+                cid: "undefined" != typeof __alloyId68.__transform["id"] ? __alloyId68.__transform["id"] : __alloyId68.get("id")
             });
             __alloyId70.add(__alloyId78);
             deleteOne ? $.addListener(__alloyId78, "click", deleteOne) : __defers["__alloyId78!click!deleteOne"] = true;
@@ -70,8 +71,8 @@ function Controller() {
             model.destroy();
         } else alert("The cart is already empty now!");
     }
-    function deleteOne() {
-        var firstModel = cartObject.at(0);
+    function deleteOne(e) {
+        var firstModel = cartObject.get(e.source.cid);
         firstModel.destroy();
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));

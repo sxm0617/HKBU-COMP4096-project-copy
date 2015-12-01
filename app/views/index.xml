@@ -28,11 +28,11 @@
 	        		<TextArea font="" textAlign="right"  width="78dp"  left="0dp" value="Total Price"/>
 	        		<Button title="Delete All" textAlign="center" left="70%" onClick="deleteAll"/>				
 					<TableView dataCollection="cart" width="90%">
-	        			<TableViewRow layout="horizontal"> 
+	        			<TableViewRow layout="horizontal" > 
 	        				<TextArea font="" textAlign="left"   width="150dp" left="20dp" value="{item_name}"   />
 	        				<TextArea font="" textAlign="center" width="12dp"  left="50dp" value="{item_number}" />
 	        				<TextArea font="" textAlign="right"  width="50dp"  left="50dp" value="{total_price}" />
-	        				<Button title="Delete" textAlign="center" left="85%" onClick="deleteOne"/>
+	        				<Button title="Delete" textAlign="center" left="85%" onClick="deleteOne" cid="{id}"/>
 	        			</TableViewRow>     
 	        		</TableView>
         		</View>       			

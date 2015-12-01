@@ -103,11 +103,10 @@ function Controller() {
         id: "__alloyId29"
     });
     $.__views.details.add($.__views.__alloyId29);
-    $.__views.textarea = Ti.UI.createTextArea({
+    $.__views.textarea = Ti.UI.createTextField({
         id: "textarea",
-        textAlign: "center",
         borderColor: "#000",
-        width: "20dp",
+        width: "40dp",
         top: "85%",
         maxLength: "1"
     });

@@ -28,7 +28,7 @@ function deleteAll(e) {
 }
 
 function deleteOne(e) {
-	var firstModel = cartObject.at(0);
+	var firstModel = cartObject.get(e.source.cid);
 	firstModel.destroy();
 }
 

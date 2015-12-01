@@ -10,7 +10,7 @@
 			</TableViewRow>
 		</TableView>
 		<Label  text="Please input the number from 1 to 9" top="80%" />
-		<TextArea id="textarea" textAlign="center" borderColor="#000" width="20dp" top="85%" maxLength="1" />				
+		<TextField id="textarea" borderColor="#000" width="40dp" top="85%" maxLength="1" />				
 		<Button title="Add to cart" top="90%" width="100dp" height="50dp" onClick="addItem" />	
 	</Window>
 </Alloy>

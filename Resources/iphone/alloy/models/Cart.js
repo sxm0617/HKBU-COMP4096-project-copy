@@ -6,7 +6,7 @@ exports.definition = {
             type: "sql",
             collection_name: "cart",
             db_file: "/shop.sqlite",
-            idAttribute: "item_id"
+            idAttribute: "id"
         }
     },
     extendModel: function(Model) {
