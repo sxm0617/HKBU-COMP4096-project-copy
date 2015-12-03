@@ -31,7 +31,8 @@ function Controller() {
     });
     $.__views.about && $.addTopLevelView($.__views.about);
     $.__views.__alloyId0 = Ti.UI.createTextArea({
-        value: "Are you tired of always ordering the wrong size online? Don't worry any longer! One-Size Shop offers clothes in solely one size! If it fit it fits, if it doesn't, well.. than it simply doesn't! You can return your items within 30 days of the day of recieving your order. We ship world-wide!",
+        editable: "false",
+        value: "The app is just for the view of jackets, dresses, tops and trousers. We can also give the price for you to judge whether it is worth. However, we do not supply the function of buying. If you like some of our products, you can contact us through email or phone. Our information is shown in the 'Contact Us' interface. Wish you having a good time in our store!",
         font: "",
         id: "__alloyId0"
     });

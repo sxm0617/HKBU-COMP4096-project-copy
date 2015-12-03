@@ -22,6 +22,7 @@ function Controller() {
             });
             rows.push(__alloyId70);
             var __alloyId72 = Ti.UI.createTextArea({
+                editable: "false",
                 font: "",
                 textAlign: "left",
                 width: "150dp",
@@ -30,6 +31,7 @@ function Controller() {
             });
             __alloyId70.add(__alloyId72);
             var __alloyId74 = Ti.UI.createTextArea({
+                editable: "false",
                 font: "",
                 textAlign: "center",
                 width: "12dp",
@@ -38,6 +40,7 @@ function Controller() {
             });
             __alloyId70.add(__alloyId74);
             var __alloyId76 = Ti.UI.createTextArea({
+                editable: "false",
                 font: "",
                 textAlign: "right",
                 width: "50dp",
@@ -56,6 +59,15 @@ function Controller() {
         }
         $.__views.__alloyId67.setData(rows);
     }
+    function setTotalPrice() {
+        totalPrice = 0;
+        var numberOfItem = cartObject.length;
+        if (numberOfItem > 0) for (var i = 0; numberOfItem > i; i++) {
+            var model = cartObject.at(i);
+            totalPrice += model.get("total_price");
+        }
+        showTotalPrice();
+    }
     function categories() {
         var categories = Alloy.createController("categories");
         $.index.activeTab.open(categories.getView());
@@ -64,16 +76,23 @@ function Controller() {
         var about = Alloy.createController("about");
         Alloy.Globals.tabGroup.activeTab.open(about.getView());
     }
+    function showTotalPrice() {
+        $.totalPrice.text = "Total Price: " + totalPrice;
+    }
     function deleteAll() {
         var numberOfItem = cartObject.length;
         if (numberOfItem > 0) for (var i = 0; numberOfItem > i; i++) {
             var model = cartObject.at(0);
             model.destroy();
         } else alert("The cart is already empty now!");
+        totalPrice = 0;
+        showTotalPrice();
     }
     function deleteOne(e) {
-        var firstModel = cartObject.get(e.source.cid);
-        firstModel.destroy();
+        var model = cartObject.get(e.source.cid);
+        model.destroy();
+        totalPrice -= model.get("total_price");
+        showTotalPrice();
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
@@ -127,8 +146,8 @@ function Controller() {
     $.__views.__alloyId57.add($.__views.__alloyId58);
     about ? $.addListener($.__views.__alloyId58, "click", about) : __defers["$.__views.__alloyId58!click!about"] = true;
     $.__views.__alloyId59 = Ti.UI.createTextField({
-        value: "One-Size Shop",
         editable: "false",
+        value: "About",
         id: "__alloyId59"
     });
     $.__views.__alloyId58.add($.__views.__alloyId59);
@@ -140,7 +159,7 @@ function Controller() {
     $.__views.__alloyId50 = Ti.UI.createTab({
         window: $.__views.__alloyId51,
         title: "Home",
-        icon: "KS_nav_ui.png",
+        icon: "home.png",
         id: "__alloyId50"
     });
     __alloyId49.push($.__views.__alloyId50);
@@ -149,12 +168,27 @@ function Controller() {
         title: "My Cart",
         id: "__alloyId61"
     });
+    setTotalPrice ? $.addListener($.__views.__alloyId61, "focus", setTotalPrice) : __defers["$.__views.__alloyId61!focus!setTotalPrice"] = true;
     $.__views.__alloyId62 = Ti.UI.createView({
         layout: "horizontal",
         id: "__alloyId62"
     });
     $.__views.__alloyId61.add($.__views.__alloyId62);
+    $.__views.totalPrice = Ti.UI.createLabel({
+        width: "400dp",
+        height: Ti.UI.SIZE,
+        color: "#000",
+        font: {
+            fontSize: 20,
+            fontFamily: "Helvetica Neue"
+        },
+        textAlign: "center",
+        id: "totalPrice",
+        text: "Total Price:     0"
+    });
+    $.__views.__alloyId62.add($.__views.totalPrice);
     $.__views.__alloyId63 = Ti.UI.createTextArea({
+        editable: "false",
         font: "",
         textAlign: "left",
         width: "100dp",
@@ -164,6 +198,7 @@ function Controller() {
     });
     $.__views.__alloyId62.add($.__views.__alloyId63);
     $.__views.__alloyId64 = Ti.UI.createTextArea({
+        editable: "false",
         font: "",
         textAlign: "center",
         width: "62dp",
@@ -173,6 +208,7 @@ function Controller() {
     });
     $.__views.__alloyId62.add($.__views.__alloyId64);
     $.__views.__alloyId65 = Ti.UI.createTextArea({
+        editable: "false",
         font: "",
         textAlign: "right",
         width: "78dp",
@@ -220,6 +256,7 @@ function Controller() {
     });
     $.__views.__alloyId85.add($.__views.__alloyId86);
     $.__views.__alloyId87 = Ti.UI.createTextArea({
+        editable: "false",
         left: "10dp",
         backgroundColor: "transparent",
         value: "Eline Saarloos\nStudent number: 15501701\nCountry: Netherlands\nPhone: 5244 9691\nEmail: 15501701@life.hkbu.edu.hk",
@@ -253,6 +290,7 @@ function Controller() {
     });
     $.__views.__alloyId90.add($.__views.__alloyId91);
     $.__views.__alloyId92 = Ti.UI.createTextArea({
+        editable: "false",
         left: "10dp",
         backgroundColor: "transparent",
         value: "Sun Xiaomeng\nStudent number: 12251216\nCountry: China\nPhone: 5612 7210\nEmail: 12251216@life.hkbu.edu.hk",
@@ -284,9 +322,11 @@ function Controller() {
     Alloy.Collections.items.fetch();
     Alloy.Collections.cart.fetch();
     var cartObject = Alloy.Collections.cart;
+    var totalPrice;
     Alloy.Globals.tabGroup = $.index;
     __defers["$.__views.__alloyId56!click!categories"] && $.addListener($.__views.__alloyId56, "click", categories);
     __defers["$.__views.__alloyId58!click!about"] && $.addListener($.__views.__alloyId58, "click", about);
+    __defers["$.__views.__alloyId61!focus!setTotalPrice"] && $.addListener($.__views.__alloyId61, "focus", setTotalPrice);
     __defers["$.__views.__alloyId66!click!deleteAll"] && $.addListener($.__views.__alloyId66, "click", deleteAll);
     __defers["__alloyId78!click!deleteOne"] && $.addListener(__alloyId78, "click", deleteOne);
     _.extend($, exports);

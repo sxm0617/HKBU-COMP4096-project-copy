@@ -99,15 +99,16 @@ function Controller() {
     __alloyId27.on("fetch destroy change add remove reset", __alloyId28);
     $.__views.__alloyId29 = Ti.UI.createLabel({
         text: "Please input the number from 1 to 9",
-        top: "80%",
+        top: "82%",
         id: "__alloyId29"
     });
     $.__views.details.add($.__views.__alloyId29);
     $.__views.textarea = Ti.UI.createTextField({
         id: "textarea",
         borderColor: "#000",
-        width: "40dp",
-        top: "85%",
+        width: "30dp",
+        textAlign: "center",
+        top: "87%",
         maxLength: "1"
     });
     $.__views.details.add($.__views.textarea);

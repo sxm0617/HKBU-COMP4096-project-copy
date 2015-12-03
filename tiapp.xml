@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>hk.edu.hkbu.comp.mac</id>
-    <name>Testing</name>
+    <name>ShoppingApp_V8</name>
     <version>1.0</version>
     <publisher>xdeveloper</publisher>
     <url>http://</url>
-    <description>undefined</description>
+    <description/>
     <copyright>2015 by xdeveloper</copyright>
-    <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>6fe05698-8753-4143-9666-c9e432e619b8</guid>
+    <guid>cfee53ce-6e83-4ad2-9fff-c7fd91f8fa80</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -61,21 +60,21 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">565696d106ef4f03585ab821</property>
+    <property name="appc-app-id" type="string">565d705876ec89a20659ff6e</property>
     <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-development" type="string">cvRtWrnnvvyV1hgUKeWrLedT45KRph50</property>
-    <property name="acs-oauth-key-development" type="string">QQGYROfPFK14pFKibmGyZbFXyjIonkyV</property>
-    <property name="acs-api-key-development" type="string">lYXLGvtQrI8TtK1qNlLQ9Q3rveKDknBf</property>
+    <property name="acs-oauth-secret-development" type="string">wfbMZAYHGmoJZApC7CQPgg4IGuHXRxUR</property>
+    <property name="acs-oauth-key-development" type="string">DCwX33T52mL56qjlpcwPPBwU7AfWf1Zn</property>
+    <property name="acs-api-key-development" type="string">YAkKJd1FModUdnuTcvjNoZlqjdUAefmC</property>
     <property name="acs-username-development" type="string">appc_app_user_dev</property>
-    <property name="acs-password-development" type="string">SgsMEAOUD1Bo3sodNe</property>
+    <property name="acs-password-development" type="string">DNIvCUOoZpEFUPwxJz</property>
     <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-    <property name="acs-oauth-secret-production" type="string">QCTcBCul29WVG3qO2dfS38lnIUavh8cZ</property>
-    <property name="acs-oauth-key-production" type="string">ZBEdGIaDFEqGyjJZFuEEMR5JCOHgL37S</property>
-    <property name="acs-api-key-production" type="string">62I0CjdohD90irEG8LdfZIcEMWxX0XwK</property>
+    <property name="acs-oauth-secret-production" type="string">Erx8KyTV7XthWnwnvB7dRyrwPFXFGHTL</property>
+    <property name="acs-oauth-key-production" type="string">M2ARMcNYg2Hs9RH4dB3sKoUqVi3IsY5n</property>
+    <property name="acs-api-key-production" type="string">J6ACvauSr4trvL4c1zKvCmsID45PMRoc</property>
     <property name="acs-username-production" type="string">appc_app_user</property>
-    <property name="acs-password-production" type="string">HXrREYxzEz4eUnbf5m</property>
+    <property name="acs-password-production" type="string">JJvGkbBupcbDGAhmBD</property>
     <property name="appc-org-id" type="string">100065777</property>
     <property name="appc-creator-user-id" type="string">c3bafb8f-b919-4555-8d1d-38f1d3ec4a9f</property>
 </ti:app>

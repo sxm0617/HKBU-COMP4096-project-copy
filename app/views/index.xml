@@ -2,7 +2,7 @@
 	<Collection src="items"/>
 	<Collection src="cart" />
 	<TabGroup>
-		<Tab title="Home" icon="KS_nav_ui.png">
+		<Tab title="Home" icon="home.png">
 			<Window title="Home Page">
 				<TableView>
 					<TableViewRow >
@@ -13,7 +13,7 @@
 					
 					<TableViewRow >
 						<View height="17%" onClick="about">
-							<TextField value="One-Size Shop" editable="false"/>
+							<TextField editable="false" value="About" editable="false"/>
 						</View>
 					</TableViewRow>
 				</TableView>
@@ -21,20 +21,21 @@
 		</Tab>
 		
 		<Tab title="Cart" icon="/cart.png">
-			<Window title="My Cart">
+			<Window title="My Cart" onFocus="setTotalPrice">
 				<View layout="horizontal">
-					<TextArea font="" textAlign="left"   width="100dp" left="20dp" value="Item Name"/>
-	        		<TextArea font="" textAlign="center" width="62dp"  left="73dp" value="Number"/>
-	        		<TextArea font="" textAlign="right"  width="78dp"  left="0dp" value="Total Price"/>
+					<Label id="totalPrice" width="400dp" text="Total Price:     0"/>
+					<TextArea editable="false" font="" textAlign="left"   width="100dp" left="20dp" value="Item Name"/>
+	        		<TextArea editable="false" font="" textAlign="center" width="62dp"  left="73dp" value="Number"/>
+	        		<TextArea editable="false" font="" textAlign="right"  width="78dp"  left="0dp" value="Total Price"/>	        		
 	        		<Button title="Delete All" textAlign="center" left="70%" onClick="deleteAll"/>				
 					<TableView dataCollection="cart" width="90%">
-	        			<TableViewRow layout="horizontal" > 
-	        				<TextArea font="" textAlign="left"   width="150dp" left="20dp" value="{item_name}"   />
-	        				<TextArea font="" textAlign="center" width="12dp"  left="50dp" value="{item_number}" />
-	        				<TextArea font="" textAlign="right"  width="50dp"  left="50dp" value="{total_price}" />
+	        			<TableViewRow layout="horizontal"> 
+	        				<TextArea editable="false" font="" textAlign="left"   width="150dp" left="20dp" value="{item_name}"   />
+	        				<TextArea editable="false" font="" textAlign="center" width="12dp"  left="50dp" value="{item_number}" />
+	        				<TextArea editable="false" font="" textAlign="right"  width="50dp"  left="50dp" value="{total_price}" />
 	        				<Button title="Delete" textAlign="center" left="85%" onClick="deleteOne" cid="{id}"/>
-	        			</TableViewRow>     
-	        		</TableView>
+	        			</TableViewRow>        			    
+	        		</TableView>	        		
         		</View>       			
 			</Window>
 		</Tab>
@@ -44,7 +45,7 @@
 				<TableView >					
 					<TableViewRow>
 						<View layout="horizontal" height="50%">								
-							<TextArea left="10dp" backgroundColor="transparent"
+							<TextArea editable="false" left="10dp" backgroundColor="transparent"
 								value = "Eline Saarloos\nStudent number: 15501701\nCountry: Netherlands\nPhone: 5244 9691\nEmail: 15501701@life.hkbu.edu.hk" />							
 							<ImageView image="/Eline.png" height= "120dp" width = "120dp" right="10dp"/>
 						</View>
@@ -53,7 +54,7 @@
 					<TableViewRow>
 						<View layout="horizontal" height="50%">
 							<ImageView image="/SunXiaomeng.jpg" height= "120dp" width = "120dp" left="10dp"/>
-							<TextArea left="10dp" backgroundColor = "transparent" 
+							<TextArea editable="false" left="10dp" backgroundColor = "transparent" 
 								value="Sun Xiaomeng\nStudent number: 12251216\nCountry: China\nPhone: 5612 7210\nEmail: 12251216@life.hkbu.edu.hk"/>
 						</View>
 					</TableViewRow>					
